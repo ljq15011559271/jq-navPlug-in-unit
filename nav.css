@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+.list{
+	margin:50px auto;
+	width: 500px;
+	color: #fff;
+
+}
+.list li{
+	float: left;
+	background: #333;
+	height: 30px;
+	line-height: 30px;
+	width: 100px;
+	text-align: center;
+	cursor: pointer;
+}
+.nav{
+	display: none;
+}

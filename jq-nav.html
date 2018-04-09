@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jq的nav插件</title>
+	<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="jquery.nav.js"></script>
+	<link rel="stylesheet" type="text/css" href="nav.css">
+
+</head>
+<body>
+	<ul class="list">
+		<li>首页
+			<ul class="nav">
+				<li>子列表1</li>
+				<li>子列表1</li>
+				<li>子列表1</li>
+				<li>子列表1</li>
+				<li>子列表1</li>
+				<li>子列表1</li>
+			</ul>
+		</li>
+		<li>模块1
+			<ul class="nav">
+				<li>子列表2</li>
+				<li>子列表2</li>
+				<li>子列表2</li>
+				<li>子列表2</li>
+				<li>子列表2</li>
+				<li>子列表2</li>
+			</ul>
+		</li>
+		<li>模块2
+			<ul class="nav">
+				<li>子列表3</li>
+				<li>子列表3</li>
+				<li>子列表3</li>
+				<li>子列表3</li>
+				<li>子列表3</li>
+				<li>子列表3</li>
+			</ul>
+		</li>
+		<li>模块3
+			<ul class="nav">
+				<li>子列表4</li>
+				<li>子列表4</li>
+				<li>子列表4</li>
+				<li>子列表4</li>
+				<li>子列表4</li>
+				<li>子列表4</li>
+			</ul>
+		</li>
+		<li>个人中心
+			<ul class="nav">
+				<li>子列表5</li>
+				<li>子列表5</li>
+				<li>子列表5</li>
+				<li>子列表5</li>
+				<li>子列表5</li>
+				<li>子列表5</li>
+			</ul>
+		</li>
+	</ul>
+	<script type="text/javascript">
+		$(function(){
+			// $.nav();
+			$(".list").eq(0).nav();
+		})
+	</script>
+</body>
+</html>
